@@ -1,0 +1,146 @@
+
+.hero-banner {
+    font-family: 'Roboto', sans-serif;
+    background: url("../../../Assets/Image/bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+
+.hero-banner h1 {
+    font-size: 48px;
+}
+.hero-banner .btn {
+    position: relative;
+    overflow: hidden;
+    z-index: 9;
+    margin-top: 15px;
+    color: #2f2f41;
+}
+.hero-banner .btn-primary {
+    color: #2f2f41;
+    background-color: rgba(1, 164, 121, 0.1);
+    border-color: #01a479;
+}
+.hero-banner .btn:before {
+    content: "";
+    background: #ed5561;
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.hero-banner .btn:hover:before {
+    width: 100%;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 70px;
+    align-items: center;
+    color: #79798e;
+}
+
+.booking-form {
+    background-color: rgba(56, 48, 204, 0.426);
+    border: 1px solid #ddd;
+    padding: 30px;
+    border-radius: 5px;
+    float: left;
+ 
+}
+
+.booking-form h3 {
+    margin: 10px 0px;
+}
+
+.booking-form .input-group {
+    margin: 1px 0;
+}
+
+.f-class {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inp-width {
+    min-width: 250px;
+}
+
+.plus-minus-btn {
+    display: flex;
+    align-items: center;
+   
+}
+
+.plus-minus-btn .btn {
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 5px;
+    margin-top: 23px;
+    border-radius: 5px;
+    background-color: #FF4B92;
+    border: none;
+}
+
+.plus-minus-btn .btn:hover {
+    background-color: rgba(20, 67, 220, 0.885);
+    color: white;
+    border: none;
+}
+
+.booking-form .calculations {
+    margin: 5px 0;
+}
+
+.booking-form .calculations p {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.booking-form .calculations .right p {
+    text-align: right;
+}
+
+.booking-form input {
+    width: 100%;
+    display: block;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background: #f3fff9;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.booking-form .inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.booking-content {
+    color: #fff;
+    width: 80%;
+}
+
+.booking-content h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
